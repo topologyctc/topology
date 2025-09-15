@@ -45,3 +45,26 @@ body{margin:0;font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,"Helveti
 .muted{color:var(--muted);font-size:13px}
 .footer{padding:14px;text-align:center;color:var(--muted);font-size:13px}
 @media(max-width:900px){.sidebar{display:none}.main{padding:12px}}
+.welcome-section {
+  background: #ffe5e5; /* Light red background */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.welcome-section h1 {
+  color: #b91c1c; /* Dark red text */
+}
+
+.welcome-section p {
+  color: #991b1b; /* Medium red text */
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
